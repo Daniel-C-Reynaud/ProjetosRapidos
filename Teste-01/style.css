@@ -1,0 +1,101 @@
+:root {
+   --cor: rgb(73, 73, 73);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+
+   scrollbar-color: black;
+}
+
+*::-webkit-scrollbar {
+   background-color: black;
+   height: 1px;
+}
+
+body {
+   background-color: rgb(5, 6, 12);
+}
+
+header {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   background-color: #000000;
+   background-image: linear-gradient(to bottom, rgba(5, 6, 12, 0), rgba(5, 6, 12, 1)),  url(Images/Imagem-topo.jpg);
+   background-size: cover;
+   background-position: top center;
+   background-repeat: no-repeat;
+   
+   
+   padding: 50px;
+   height: 80vh;
+}
+
+div#profile {
+   position: absolute;
+   top: 30%;
+   transform: scale(10);
+   color: rgb(214, 214, 214);
+   text-shadow: 0 0 6px black;
+}
+
+header > section {
+   background-color: #ffffff00;
+   display: flex;
+}
+
+.search {
+   background-color: var(--cor);
+   border-radius: 6px;
+   border: 3px solid rgb(59, 59, 59);
+
+   width: 500px;
+   height: 70px;
+}
+
+.search::placeholder, .search {
+   color: lightgray;
+   font-size: 20px;
+
+   padding-left: 10px;
+}
+
+header button {
+   background-color: var(--cor);
+   border-radius: 6px;
+   border: 3px solid rgb(59, 59, 59);
+
+   width: 15%;
+
+   margin-left: 2px;
+}
+
+
+nav {
+   position: absolute;
+   top: 50%;
+   background-color: #ffffff00;
+   width: 53.5%;
+   height: 30px;
+   display: flex;
+   justify-content: center;
+}
+
+nav > button {
+   width: 137px;
+   height: 70px;
+}
+
+i {
+   font-size: 3em;
+   color: rgb(211, 211, 211);
+   transition: font-size 0.2s ease-out;
+}
+
+
+nav > button:hover > i {
+   font-size: 3.5em;
+}
