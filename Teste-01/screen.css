@@ -14,8 +14,18 @@ header {
    width: 80%;
 }
 
+.topo span {
+   padding-left: 3%;
+}
+
 header .naveg {
-   width: 80%;
+   width: 85%;
+   justify-content: center;
+}
+
+.naveg button {
+   width: 50px;
+   height: 50px;
 }
 
 main > h1#h1denot {
@@ -23,9 +33,10 @@ main > h1#h1denot {
 }
 
 main section {
-   width: 94%;
-   height: 300px;
-   margin-bottom: 100px;
+   width: auto;
+   height: auto;
+   margin-bottom: 200px;
+   padding: 30px;
 }
 
 main section div.data {
