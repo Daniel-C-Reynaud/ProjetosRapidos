@@ -134,6 +134,10 @@ header .naveg {
    border-color: black;
 }
 
+main > h1#h1denot {
+   text-align: center;
+   font-size: 3em;
+}
 main {
    color: white;
 }

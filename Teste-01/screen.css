@@ -1,0 +1,50 @@
+* {
+   -webkit-tap-highlight-color: transparent;
+}
+
+header {
+   background: rgb(20, 20, 20);
+}
+
+.topo {
+   width: 85%;
+}
+
+.topo input {
+   width: 80%;
+}
+
+header .naveg {
+   width: 80%;
+}
+
+main > h1#h1denot {
+   font-size: 2em;
+}
+
+main section {
+   width: 94%;
+   height: 300px;
+   margin-bottom: 100px;
+}
+
+main section div.data {
+   font-size: 1.5em;
+   font-weight: 700;
+   text-shadow: 1px 1px 5px black;
+   color: rgb(214, 214, 214);
+}
+
+main section h1 {
+   font-size: 1.4em;
+   margin-bottom: 0;
+   text-shadow: 1px 1px 3px black;
+}
+
+main section p {
+   font-size: 1em;
+}
+
+footer div {
+   width: 100%;
+}
