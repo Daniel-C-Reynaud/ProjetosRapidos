@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+::-webkit-scrollbar {
+   width: 10px;
+ }
+ 
+::-webkit-scrollbar-track {
+   background: #151525;
+}
+
+::-webkit-scrollbar-thumb {
+   background: white;
+   border-radius: 10px;
+}
+ 
+
+body {
+   background-color: #151525;
+}
+
+header {
+   height: 300px;
+   background-color: yellow;
+}
+
+header section {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   max-width: 468px;
+   height: 100%;
+   margin: auto;
+   flex-direction: column;
+}
+
+header article{
+   position: relative;
+}
+
+header article > input {
+   width: 500px;
+   height: 50px;
+   padding-left: 15px;
+   font-size: 1.6em;
+   border-radius: 30px;
+   border: 3px solid rgb(0, 0, 0);
+   background-color: transparent;
+   padding-right: 50px;
+}
+
+header article button {
+   position: absolute;
+   font-size: 2em;
+   top: 4px;
+   right: -45px;
+   padding: 10px;
+   background-color: transparent;
+   border: 0;
+}
+
+header article > i {
+   font-size: 2rem;
+   top: 14px;
+   right: 20px;
+   position: absolute;
+}
+
+header section div input::placeholder {
+   color: #000000;
+   font-weight: light;
+}
+
+header section nav {
+   white-space: nowrap;
+   overflow-x: auto;
+   width: 110%;
+   border-radius: 30px;
+   height: 0;
+   margin-top: 10px;
+   transition: height 0.2s ease-out;
+}
+
+header section nav.ligarFiltro {
+   transition: height 0.2s ease-in;
+   height: 60px;
+}
+
+header section nav::-webkit-scrollbar {
+   display: none;
+}
+
+header section nav button {
+   padding: 7px 10px;
+   margin-inline: 1px;
+   border-radius: 30px;
+   border: 0;
+   width: 200px;
+   height: 60px;
+   background-color: #000000;
+   color: white;
+   font-family: Poppins;
+   font-weight: bold;
+   font-size: 1em;
+   transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+header section nav button:hover {
+   background-color: #fff;
+   color: black;
+   transition: 0.2s;
+}
+
+main section {
+   max-width: 800px;
+   background-color: #fff;
+   height: 800px;
+   margin: 130px auto 130px auto;
+   position: relative;
+   border-radius: 20px;
+   border-bottom-left-radius: 20px;
+   text-align: right;
+   display: flex;
+   justify-content: end;
+   align-items: end;
+   flex-direction: column;
+   padding: 100px;
+   font-size: 2em;
+}
+
+main section button {
+   position: absolute;
+   bottom: -30px;
+   left: -30px;
+   padding: 30px;
+   width: 150px;
+   height: 100px;
+   font-size: 1em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 15px solid #151525;
+   border-radius: 90px;
+   background-image: linear-gradient(to bottom, rgb(241, 0, 0), rgb(255, 50, 50));
+   color: white;
+}
+
+main section button span {
+   
+}
